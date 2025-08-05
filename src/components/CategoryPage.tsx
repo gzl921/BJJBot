@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { techniques } from '../data/techniques';
+import { apiService, Technique } from '../services/api';
 
 const CategoryPage: React.FC = () => {
   const { category } = useParams<{ category: string }>();
   const navigate = useNavigate();
+  const [techniques, setTechniques] = useState<Technique[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   // Convert URL parameter back to category name with better handling
   const getCategoryNameFromUrl = (urlCategory: string | undefined): string => {
@@ -24,6 +27,27 @@ const CategoryPage: React.FC = () => {
   };
 
   const categoryName = getCategoryNameFromUrl(category);
+
+  // Fetch techniques for this category
+  useEffect(() => {
+    const fetchTechniques = async () => {
+      try {
+        setLoading(true);
+        const data = await apiService.getTechniquesByCategory(categoryName);
+        setTechniques(data);
+        setError(null);
+      } catch (err) {
+        setError('Failed to load techniques for this category. Please try again later.');
+        console.error('Error fetching techniques:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (categoryName) {
+      fetchTechniques();
+    }
+  }, [categoryName]);
 
   // Filter techniques by category using exact match
   const categoryTechniques = techniques.filter(t => t.category === categoryName);
@@ -48,6 +72,35 @@ const CategoryPage: React.FC = () => {
     };
     return colors[categoryName] || '#95a5a6';
   };
+
+  if (loading) {
+    return (
+      <div className="container">
+        <button className="btn back-btn" onClick={handleBackToMenu}>
+          ← Back to Main Menu
+        </button>
+        <div className="loading">
+          <h2>Loading techniques...</h2>
+          <div className="spinner"></div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="container">
+        <button className="btn back-btn" onClick={handleBackToMenu}>
+          ← Back to Main Menu
+        </button>
+        <div className="error">
+          <h2>Error</h2>
+          <p>{error}</p>
+          <button onClick={() => window.location.reload()}>Try Again</button>
+        </div>
+      </div>
+    );
+  }
 
   if (categoryTechniques.length === 0) {
     return (
@@ -88,7 +141,7 @@ const CategoryPage: React.FC = () => {
           <div
             key={technique.id}
             className="technique-card"
-            onClick={() => handleTechniqueClick(technique.id)}
+            onClick={() => handleTechniqueClick(technique.technique_id)}
           >
             <div className="technique-header">
               <h3>{technique.name}</h3>

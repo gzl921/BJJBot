@@ -1,17 +1,41 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { techniques } from '../data/techniques';
+import { apiService, Technique } from '../services/api';
 
 const ContentMenu: React.FC = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
+  const [techniques, setTechniques] = useState<Technique[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Fetch techniques from API
+  useEffect(() => {
+    const fetchTechniques = async () => {
+      try {
+        setLoading(true);
+        const data = await apiService.getTechniques();
+        setTechniques(data);
+        setError(null);
+      } catch (err) {
+        setError('Failed to load techniques. Please try again later.');
+        console.error('Error fetching techniques:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTechniques();
+  }, []);
 
   // Get unique categories and count techniques in each
-  const categories = Array.from(new Set(techniques.map(t => t.category))).map(category => ({
-    name: category,
-    count: techniques.filter(t => t.category === category).length,
-    color: getCategoryColor(category)
-  }));
+  const categories = useMemo(() => {
+    return Array.from(new Set(techniques.map(t => t.category))).map(category => ({
+      name: category,
+      count: techniques.filter(t => t.category === category).length,
+      color: getCategoryColor(category)
+    }));
+  }, [techniques]);
 
   // Filter techniques based on search term
   const filteredTechniques = useMemo(() => {
@@ -67,6 +91,29 @@ const ContentMenu: React.FC = () => {
     return colors[category] || '#95a5a6';
   }
 
+  if (loading) {
+    return (
+      <div className="container">
+        <div className="loading">
+          <h2>Loading techniques...</h2>
+          <div className="spinner"></div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="container">
+        <div className="error">
+          <h2>Error</h2>
+          <p>{error}</p>
+          <button onClick={() => window.location.reload()}>Try Again</button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container">
       <div className="header">
@@ -101,7 +148,7 @@ const ContentMenu: React.FC = () => {
                   <div
                     key={technique.id}
                     className="search-result-card"
-                    onClick={() => handleTechniqueClick(technique.id)}
+                    onClick={() => handleTechniqueClick(technique.technique_id)}
                   >
                     <div className="search-result-header">
                       <h4>{technique.name}</h4>
