@@ -66,27 +66,6 @@ const TechniqueDetail: React.FC = () => {
 
       <div className="section">
         <div className="card">
-          <h2>Video</h2>
-          {technique.video ? (
-            <div className="video-container">
-              <iframe
-                width="100%"
-                height="315"
-                src={`https://www.youtube.com/embed/${technique.video}`}
-                title={`${technique.name} Tutorial`}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          ) : (
-            <p>No video available for this technique.</p>
-          )}
-        </div>
-      </div>
-
-      <div className="section">
-        <div className="card">
           <h2>Description</h2>
           <p>{technique.description}</p>
         </div>

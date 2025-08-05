@@ -4,7 +4,6 @@ export interface Technique {
   category: string;
   description: string;
   bestResponse: string;
-  video: string;
 }
 
 export const techniques: Technique[] = [
@@ -14,7 +13,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "straight-armbar--juji-gatame-",
@@ -22,7 +20,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This joint lock targets the elbow joint, hyperextending it to create pain and force a tap. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "guillotine-choke--all-variations-",
@@ -30,7 +27,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "triangle-choke--guard-",
@@ -38,7 +34,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "kimura--double-wristlock-",
@@ -46,7 +41,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This shoulder lock applies pressure to the shoulder joint by controlling the wrist and rotating the arm. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "arm-triangle-choke--kata-gatame-",
@@ -54,7 +48,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "americana--paint-brush-key-lock-",
@@ -62,7 +55,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "bow-and-arrow-choke",
@@ -70,7 +62,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "d-arce-choke",
@@ -78,7 +69,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "straight-ankle-lock--ashi-garami-",
@@ -86,7 +76,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "heel-hook---inside",
@@ -94,7 +83,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "heel-hook---outside",
@@ -102,7 +90,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "ezekiel-choke",
@@ -110,7 +97,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "cross-collar-choke--guard-",
@@ -118,7 +104,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "cross-collar-choke--mount-",
@@ -126,7 +111,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "loop-choke",
@@ -134,7 +118,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "toe-hold",
@@ -142,7 +125,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "kneebar",
@@ -150,7 +132,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "brabo---lapel-choke",
@@ -158,7 +139,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "north-south-choke",
@@ -166,7 +146,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "omoplata--shoulder-lock-",
@@ -174,7 +153,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "mounted-triangle-choke",
@@ -182,7 +160,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "reverse---back-triangle-choke",
@@ -190,7 +167,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "paper-cutter-choke",
@@ -198,7 +174,6 @@ export const techniques: Technique[] = [
     "category": "Submission",
     "description": "A submission technique designed to force your opponent to tap out. This move targets specific joints or applies pressure to create a submission opportunity. This choke technique applies pressure to the neck area, cutting off blood flow or air supply to force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this submission is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "closed-guard",
@@ -206,7 +181,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "half-guard--basic-knee-shield-",
@@ -214,7 +188,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "open-guard--feet-on-hips---generic-hooks-",
@@ -222,7 +195,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "butterfly-guard",
@@ -230,7 +202,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "de-la-riva-guard",
@@ -238,7 +209,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "reverse-de-la-riva",
@@ -246,7 +216,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "shin-to-shin-guard",
@@ -254,7 +223,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "knee-shield--93--guard",
@@ -262,7 +230,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "single-leg-x--ashi-garami-",
@@ -270,7 +237,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "x-guard",
@@ -278,7 +244,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "collar-and-sleeve-guard",
@@ -286,7 +251,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "spider-guard",
@@ -294,7 +258,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "lasso-guard--inside-",
@@ -302,7 +265,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "deep-half-guard",
@@ -310,7 +272,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "50-50-guard",
@@ -318,7 +279,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "half-butterfly-guard",
@@ -326,7 +286,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "k-guard",
@@ -334,7 +293,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "reverse-x-guard",
@@ -342,7 +300,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "sit-up---gorilla-guard",
@@ -350,7 +307,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "seated---combat-base---guard",
@@ -358,7 +314,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "omni-hook---overhook-guard",
@@ -366,7 +321,6 @@ export const techniques: Technique[] = [
     "category": "Guard",
     "description": "A defensive position that allows you to control your opponent while on your back. This technique helps maintain guard position and create offensive opportunities. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "double-leg-takedown",
@@ -374,7 +328,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This takedown technique uses leverage and timing to bring your opponent to the ground safely. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "single-leg-takedown",
@@ -382,7 +335,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This takedown technique uses leverage and timing to bring your opponent to the ground safely. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "ankle-pick",
@@ -390,7 +342,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "knee-tap---knee-pick",
@@ -398,7 +349,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "snap-down---go-behind",
@@ -406,7 +356,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "collar-drag",
@@ -414,7 +363,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique uses grips and leverage to pull your opponent into a disadvantageous position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "arm-drag---back-take",
@@ -422,7 +370,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique uses grips and leverage to pull your opponent into a disadvantageous position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "inside-trip--ouchi-gari-",
@@ -430,7 +377,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "outside-trip--kosoto-gari-",
@@ -438,7 +384,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "foot-sweep--deashi-barai-",
@@ -446,7 +391,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This sweep technique reverses the position, taking you from bottom to top position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "osoto-gari--major-outer-reap-",
@@ -454,7 +398,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "hip-toss--o-goshi-",
@@ -462,7 +405,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "seoi-nage--standing-dropping-",
@@ -470,7 +412,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "tai-otoshi",
@@ -478,7 +419,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "uchi-mata",
@@ -486,7 +426,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "harai-goshi--sweeping-hip-",
@@ -494,7 +433,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This sweep technique reverses the position, taking you from bottom to top position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "kouchi-gari--minor-inner-reap-",
@@ -502,7 +440,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "sasae-tsurikomi-ashi--foot-block-",
@@ -510,7 +447,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "body-lock-outside-trip",
@@ -518,7 +454,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "greco-roman-inside-trip",
@@ -526,7 +461,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "high-crotch-single---cut-across",
@@ -534,7 +468,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "fireman-s-carry--kata-guruma-",
@@ -542,7 +475,6 @@ export const techniques: Technique[] = [
     "category": "Takedown",
     "description": "A standing technique used to bring your opponent to the ground. This move is essential for initiating ground fighting and gaining positional advantage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "hitchhiker-armbar-escape",
@@ -550,7 +482,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This joint lock targets the elbow joint, hyperextending it to create pain and force a tap. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "stack-pass-armbar-escape",
@@ -558,7 +489,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This joint lock targets the elbow joint, hyperextending it to create pain and force a tap. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "leg-over-armbar-escape",
@@ -566,7 +496,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This joint lock targets the elbow joint, hyperextending it to create pain and force a tap. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "hitchhiker-belly-down-armbar-roll",
@@ -574,7 +503,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This joint lock targets the elbow joint, hyperextending it to create pain and force a tap. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "posture-pull-triangle-escape",
@@ -582,7 +510,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "knee-in-hip-triangle-pop",
@@ -590,7 +517,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "shoulder-roll-triangle-escape",
@@ -598,7 +524,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "von-flue-guillotine-counter",
@@ -606,7 +531,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "high-elbow-guillotine-peel",
@@ -614,7 +538,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "arm-inside-guillotine-pass",
@@ -622,7 +545,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "sit-through-guillotine-escape",
@@ -630,7 +552,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "answer-the-phone-rnc-defense",
@@ -638,7 +559,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "turn-in-two-on-one-rnc-peel",
@@ -646,7 +566,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "hand-fight-rnc-under-hook-escape",
@@ -654,7 +573,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This escape technique helps you get out of a disadvantageous position and regain control. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "shoulder-shrug-bow-and-arrow-slip",
@@ -662,7 +580,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "lapels-across-bow-and-arrow-defense",
@@ -670,7 +587,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "bridge-and-roll-ezekiel-escape",
@@ -678,7 +594,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "frame-across-ezekiel-slip",
@@ -686,7 +601,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "leg-catch-d-arce-roll-over",
@@ -694,7 +608,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "gator-roll-d-arce-escape",
@@ -702,7 +615,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "head-walk-arm-triangle-escape",
@@ -710,7 +622,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "leg-hook-arm-triangle-roll",
@@ -718,7 +629,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This technique uses your legs to create a triangular figure-four around your opponent's head and arm. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "hip-heist-americana-escape",
@@ -726,7 +636,6 @@ export const techniques: Technique[] = [
     "category": "Escape (Submission Escapes / Counters)",
     "description": "A defensive technique to escape from submission attempts. This counter helps you avoid being submitted and regain a better position. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this escape (submission escapes / counters) is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "sprawl-double-leg-defense",
@@ -734,7 +643,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "cross-face-whizzer-double-leg",
@@ -742,7 +650,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "hip-switch-single-leg-slip",
@@ -750,7 +657,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "shin-whizzer-single-leg-counter",
@@ -758,7 +664,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "tripod-ankle-pick-defense",
@@ -766,7 +671,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "kick-back-knee-tap-escape",
@@ -774,7 +678,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "snap-down-sprawl-go-behind",
@@ -782,7 +685,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "collar-drag-prevention-frame",
@@ -790,7 +692,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique uses grips and leverage to pull your opponent into a disadvantageous position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "inside-trip-hip-block-stuff",
@@ -798,7 +699,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "outside-trip-leg-circle-escape",
@@ -806,7 +706,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "foot-sweep-lift-leg-defense",
@@ -814,7 +713,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This sweep technique reverses the position, taking you from bottom to top position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "osoto-gari-leg-hook-counter",
@@ -822,7 +720,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique uses leg hooks to control your opponent's movement and create leverage. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "ouchi-gari-hip-turnout",
@@ -830,7 +727,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "uchi-mata-back-step-escape",
@@ -838,7 +734,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "seoi-nage-sit-through-roll",
@@ -846,7 +741,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "tai-otoshi-elbow-whizzer-stop",
@@ -854,7 +748,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "harai-goshi-back-arch-counter",
@@ -862,7 +755,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "koshi-guruma-head-pop-out",
@@ -870,7 +762,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "tani-otoshi-hip-shift-escape",
@@ -878,7 +769,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "tomoe-nage-cartwheel-over",
@@ -886,7 +776,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "sumi-gaeshi-knee-turn-out",
@@ -894,7 +783,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "yoko-tomoe-belt-pull-block",
@@ -902,7 +790,6 @@ export const techniques: Technique[] = [
     "category": "Takedown Defenses / Escapes",
     "description": "A defensive technique to prevent or escape from takedown attempts. This move helps you stay on your feet or recover from a takedown. This joint lock applies pressure to a specific joint to create pain and force a submission. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this takedown defenses / escapes is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "closed-guard-stand-up-break",
@@ -910,7 +797,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "closed-guard-knee-slice-break",
@@ -918,7 +804,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "over-under-closed-guard-split",
@@ -926,7 +811,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "hip-switch-butterfly-pass",
@@ -934,7 +818,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "float-pass-butterfly-smash",
@@ -942,7 +825,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "back-step-half-guard-escape",
@@ -950,7 +832,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "knee-slide-half-guard-pass",
@@ -958,7 +839,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "deep-half-back-step-spin",
@@ -966,7 +846,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "twisting-knee-cut-93-guard-pass",
@@ -974,7 +853,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "shin-pin-reverse-dlr-pass",
@@ -982,7 +860,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "leg-pummel-shin-to-shin-clear",
@@ -990,7 +867,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "x-pass-open-guard",
@@ -998,7 +874,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "toreando-open-guard",
@@ -1006,7 +881,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "leg-drag-open-guard",
@@ -1014,7 +888,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique uses grips and leverage to pull your opponent into a disadvantageous position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "step-back-de-la-riva-pass",
@@ -1022,7 +895,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "long-step-reverse-dlr-pass",
@@ -1030,7 +902,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "knee-slice-single-leg-x-clear",
@@ -1038,7 +909,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "dQw4w9WgXcQ"
   },
   {
     "id": "back-step-x-guard-escape",
@@ -1046,7 +916,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This escape technique helps you get out of a disadvantageous position and regain control. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "9bZkp7q19f0"
   },
   {
     "id": "force-half-collar-sleeve-pass",
@@ -1054,7 +923,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "sliding-collar-spider-pass",
@@ -1062,7 +930,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "tripod-spider-lasso-pass",
@@ -1070,7 +937,6 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard pass technique helps you move from guard position to a more dominant position like side control or mount. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   },
   {
     "id": "lapel-pull-worm-guard-split",
@@ -1078,6 +944,5 @@ export const techniques: Technique[] = [
     "category": "Guard Escapes / Pass-Outs",
     "description": "A technique to escape from guard position or pass your opponent's guard. This move helps you advance to a more dominant position. This guard position uses your legs to control your opponent's posture and create offensive opportunities. This technique is commonly used in both gi and no-gi BJJ and requires proper setup and execution to be effective.",
     "bestResponse": "The best defense against this guard escapes / pass-outs is to prevent it before it's fully applied. Focus on proper positioning, grip fighting, and maintaining good posture to avoid being caught in this technique.",
-    "video": "j8U06VqTbqk"
   }
 ];
