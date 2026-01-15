@@ -46,7 +46,7 @@ const ContentMenu: React.FC = () => {
       technique.category.toLowerCase().includes(searchTerm.toLowerCase()) ||
       technique.description.toLowerCase().includes(searchTerm.toLowerCase())
     );
-  }, [searchTerm]);
+  }, [searchTerm, techniques]);
 
   const handleCategoryClick = (category: string) => {
     // Convert category name to URL-friendly format
