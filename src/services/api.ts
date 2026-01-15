@@ -1,4 +1,23 @@
+import { techniques as localTechniques } from '../data/techniques';
+
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
+const isBrowser = typeof window !== 'undefined';
+const isLocalhost =
+  isBrowser &&
+  (window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1');
+const useLocalData = !process.env.REACT_APP_API_URL && isBrowser && !isLocalhost;
+
+const LOCAL_TECHNIQUES: Technique[] = localTechniques.map((technique, index) => ({
+  id: index + 1,
+  technique_id: technique.id,
+  name: technique.name,
+  category: technique.category,
+  description: technique.description,
+  best_response: technique.bestResponse,
+  created_at: '',
+  updated_at: ''
+}));
 
 export interface Technique {
   id: number;
@@ -46,26 +65,45 @@ class ApiService {
 
   // Get all techniques
   async getTechniques(): Promise<Technique[]> {
+    if (useLocalData) {
+      return LOCAL_TECHNIQUES;
+    }
     return this.request<Technique[]>('/techniques');
   }
 
   // Get techniques by category
   async getTechniquesByCategory(category: string): Promise<Technique[]> {
+    if (useLocalData) {
+      return LOCAL_TECHNIQUES.filter((technique) => technique.category === category);
+    }
     return this.request<Technique[]>(`/techniques/category/${encodeURIComponent(category)}`);
   }
 
   // Get all categories
   async getCategories(): Promise<string[]> {
+    if (useLocalData) {
+      return Array.from(new Set(LOCAL_TECHNIQUES.map((technique) => technique.category)));
+    }
     return this.request<string[]>('/categories');
   }
 
   // Get technique by ID
   async getTechnique(id: string): Promise<Technique> {
+    if (useLocalData) {
+      const technique = LOCAL_TECHNIQUES.find((item) => item.technique_id === id);
+      if (!technique) {
+        throw new Error('Technique not found');
+      }
+      return technique;
+    }
     return this.request<Technique>(`/techniques/${encodeURIComponent(id)}`);
   }
 
   // Create new technique
   async createTechnique(data: CreateTechniqueData): Promise<Technique> {
+    if (useLocalData) {
+      throw new Error('Create technique is not available in static mode');
+    }
     return this.request<Technique>('/techniques', {
       method: 'POST',
       body: JSON.stringify(data),
@@ -74,6 +112,9 @@ class ApiService {
 
   // Update technique
   async updateTechnique(id: string, data: UpdateTechniqueData): Promise<Technique> {
+    if (useLocalData) {
+      throw new Error('Update technique is not available in static mode');
+    }
     return this.request<Technique>(`/techniques/${encodeURIComponent(id)}`, {
       method: 'PUT',
       body: JSON.stringify(data),
@@ -82,6 +123,9 @@ class ApiService {
 
   // Delete technique
   async deleteTechnique(id: string): Promise<{ message: string }> {
+    if (useLocalData) {
+      throw new Error('Delete technique is not available in static mode');
+    }
     return this.request<{ message: string }>(`/techniques/${encodeURIComponent(id)}`, {
       method: 'DELETE',
     });
@@ -89,6 +133,9 @@ class ApiService {
 
   // Health check
   async healthCheck(): Promise<{ status: string; timestamp: string }> {
+    if (useLocalData) {
+      return { status: 'OK', timestamp: new Date().toISOString() };
+    }
     return this.request<{ status: string; timestamp: string }>('/health');
   }
 }
