@@ -407,6 +407,27 @@ code {
   margin: 0;
 }
 
+/* Footer Info */
+.footer-info {
+  margin-top: 32px;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.footer-info p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.footer-info a {
+  color: #4ecdc4;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
 /* Category Page Styles */
 .category-header {
   display: flex;

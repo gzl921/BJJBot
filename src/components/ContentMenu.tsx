@@ -208,6 +208,16 @@ const ContentMenu: React.FC = () => {
           <p className="stats-number">{categories.length}</p>
         </div>
       </div>
+
+      <div className="footer-info">
+        <p>
+          FlowRoll Studio is developing software tools for Brazilian Jiu-Jitsu
+          training, movement tracking, and future customization of training gear.
+        </p>
+        <p>
+          Contact / Email: <a href="mailto:flowrollca@gamil.com">flowrollca@gamil.com</a>
+        </p>
+      </div>
     </div>
   );
 };
